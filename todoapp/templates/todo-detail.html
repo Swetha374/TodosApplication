@@ -1,0 +1,14 @@
+{%extends 'base.html'%}
+{%block body_block%}
+<div class="container">
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+      {{todo.task_name}}
+        {{todo.status}}
+        {{todo.created_date}}
+    </div>
+    <div class="col-4"></div>
+  </div>
+</div>
+{%endblock%}
